@@ -83,9 +83,7 @@ VALUES
 -- ============================================================
 -- 1. NOT NULL constraints are applied to critical columns (employee_id, first_name, last_name, job_title)
 --    to prevent incomplete records.
--- 2. The manager_id column includes a foreign key constraint referencing employee_id.
---    This guarantees that all managers exist within the same table.
--- 3. If you anticipate more than 255 employees, consider changing TINYINT to SMALLINT or INTEGER.
+-- 2. If you anticipate more than 255 employees, consider changing TINYINT to SMALLINT or INTEGER.
 
 -- ============================================================
 -- VALIDATIONS
