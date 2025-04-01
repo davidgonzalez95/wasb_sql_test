@@ -50,7 +50,7 @@ INSERT INTO EMPLOYEE (employee_id, first_name, last_name, job_title, manager_id)
 VALUES
     -- CEO of the company, no manager assigned.
     -- IMPORTANT: CHECK THIS
-    -- If he is the CEO, why does he report to the CFO?? Maybe is NULL, I need to ask
+    -- If he is the CEO, why does he report to the CFO?? Maybe is NULL, I need to ask (It is solved in part 4)
     -- Are the Chief's hierarchies well established?
     (1, 'Ian', 'James', 'CEO', 4),
 
