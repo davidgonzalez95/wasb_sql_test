@@ -5,7 +5,7 @@
 -- including item prices and quantities.
 
 CREATE TABLE EXPENSE (
-    employee_id TINYINT, -- Unique identifier for the employee incurring the expense
+    employee_id TINYINT NOT NULL, -- Unique identifier for the employee incurring the expense
     unit_price DECIMAL(8, 2), -- Cost per unit
     quantity TINYINT -- Number of units purchased
 );
