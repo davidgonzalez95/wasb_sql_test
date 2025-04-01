@@ -43,3 +43,7 @@ SELECT e.employee_id
 FROM memory.default.EXPENSE e
 LEFT JOIN memory.default.EMPLOYEE emp ON e.employee_id = emp.employee_id
 WHERE emp.employee_id IS NULL;
+
+-- ============================================================
+-- END OF CODE
+-- ============================================================
